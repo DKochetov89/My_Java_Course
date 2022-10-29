@@ -1,3 +1,7 @@
+/*
+Основные принципы ООП
+*/
+
 import java.util.ArrayList;
 import java.util.List;
 
