@@ -27,7 +27,6 @@ public class TestClass {
         Integer $integer = new Integer(_int);
         System.out.println($integer.getClass());
 
-        //deprecated
         BigInteger bigInteger = new BigInteger(String.valueOf(_int));
         System.out.println(bigInteger.getClass());
 
