@@ -1,4 +1,4 @@
-package web.html;
+package web.jdbc;
 
 import java.io.IOException;
 import java.net.URL;

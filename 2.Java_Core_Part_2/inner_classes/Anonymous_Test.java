@@ -12,13 +12,12 @@ public class Anonymous_Test {
                 super.method();
                 method();
                 new_method();
-                }
+            }
 
-                @Override
-                void method() { // переопределение метода в анонимном классе
+            @Override
+            void method() { // переопределение метода в анонимном классе
                     System.out.println("method экземпляра анонимного класса ");
                 }
-
                 void new_method() {
                     //новый метод который мы добавили
                     System.out.println("new_method экземпляра анонимного класса ");

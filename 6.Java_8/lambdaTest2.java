@@ -22,5 +22,15 @@ public class lambdaTest2 {
         BiFunction<String, String, Integer> comp
                 = (first, second) -> first.length() - second.length();
         System.out.println(comp);
+
+        // конкатенация
+        BiFunction<String, String, String> concat = String::concat;
+
+        // сумма
+        BiFunction<Integer, Integer, Integer> sum = Integer::sum;
+
+        // вывод посредством forEach
+        var walker = StackWalker.getInstance();
+        walker.forEach(System.out::println);
     }
 }
