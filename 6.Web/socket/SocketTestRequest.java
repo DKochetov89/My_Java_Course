@@ -1,4 +1,4 @@
-package web.socket;
+package web.jdbc.socket;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
